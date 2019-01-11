@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <FlowPane layoutX="0.0" layoutY="146.0" prefHeight="254.0" prefWidth="277.0">
+      <children>
+        <Label text="Train type: " />
+        <TextField prefWidth="119.0" />
+        <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="74.0" text="Button" />
+        <ListView prefHeight="111.0" prefWidth="277.0" />
+        <Button mnemonicParsing="false" prefWidth="151.0" text="Select train" />
+        <Button mnemonicParsing="false" prefWidth="112.0" text="Delete train" />
+      </children>
+    </FlowPane>
+    <FlowPane layoutX="307.0" layoutY="173.0" prefHeight="227.0" prefWidth="293.0" />
+  </children>
+</AnchorPane>
